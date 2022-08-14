@@ -8,5 +8,14 @@ public class CrearCuenta {
         segundaCuenta.saldo = 500;
         System.out.println(segundaCuenta.saldo);
         System.out.println(primeraCuenta.agencia);
+
+        System.out.println(primeraCuenta);
+        System.out.println(segundaCuenta);
+
+        if(primeraCuenta == segundaCuenta) {
+            System.out.println("Las cuentas son iguales, son el mismo objeto.");
+        } else {
+            System.out.println("Las cuentas son diferentes, son objetos distintos.");
+        }
     }
 }
