@@ -2,10 +2,7 @@ public class Cuenta {
     double saldo;
     int agencia;
     int numero;
-    String titular;
-    String documento;
-    String telefono;
-    String sexo;
+    Cliente titular;
 
     // Este método no retorna ningún valor
     // (por eso usamos "void").
