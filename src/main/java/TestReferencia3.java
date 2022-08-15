@@ -1,6 +1,6 @@
 public class TestReferencia3 {
     public static void main(String[] args) {
-        Cuenta cuentaDeDiego = new Cuenta();
+        Cuenta cuentaDeDiego = new Cuenta(2);
         cuentaDeDiego.setTitular(new Cliente());
         cuentaDeDiego.getTitular().setNombre("Diego");
 
