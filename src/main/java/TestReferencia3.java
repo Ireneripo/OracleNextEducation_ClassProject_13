@@ -1,9 +1,9 @@
 public class TestReferencia3 {
     public static void main(String[] args) {
         Cuenta cuentaDeDiego = new Cuenta();
-        cuentaDeDiego.titular = new Cliente();
-        cuentaDeDiego.titular.nombre = "Diego";
+        cuentaDeDiego.setTitular(new Cliente());
+        cuentaDeDiego.getTitular().setNombre("Diego");
 
-        System.out.println(cuentaDeDiego.titular.nombre);
+        System.out.println(cuentaDeDiego.getTitular().getNombre());
     }
 }

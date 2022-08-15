@@ -2,7 +2,7 @@ public class Cuenta {
     private double saldo;
     private int agencia;
     private int numero;
-    Cliente titular;
+    private Cliente titular = new Cliente();
 
     // Este método no retorna ningún valor
     // (por eso usamos "void").
@@ -46,5 +46,9 @@ public class Cuenta {
 
     public void setTitular(Cliente titular) {
         this.titular = titular;
+    }
+
+    public Cliente getTitular() {
+        return titular;
     }
 }
